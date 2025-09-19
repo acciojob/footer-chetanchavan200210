@@ -3,13 +3,20 @@
 margin:0;
 	padding:0;
 }
-.top{
 
-	display:flex;
-	background-color:black;
-	justify-content:space-between
+.h3::after {
+	content: "";
+	width:25px;
+	height:2px;
+	background-color:white;
+	display: block;
+	margin-top: 5px;
+	opacity: 0.5;
 
 }
+
+
+
 .head{
 display:flex;
 justify-content:space-around;
@@ -19,10 +26,11 @@ justify-content:space-around;
 	
 .logo-details{
 	color:white;
-	
+	background-color:black;
+
 }
 .link-boxes{
-margin-top:80px;
+
 	background-color:black;
 	display:flex;
 	flex:wrap;
@@ -30,8 +38,22 @@ margin-top:80px;
 	color:white;
 }
 .bottom-details{
-	background-color:orange;
+		
+	font-size: 15px;
+	background-color:grey;
+	color:white;
+display:flex;
+	justify-content:space-between
+
 }
-.media-icons{
-	margin-left:
+.company{
+	display:flex;
+	justify-content:space-between;
+	background:black;
+	
 }
+.logo_name{
+font-size:20px;
+margin-left:15px;
+}
+
