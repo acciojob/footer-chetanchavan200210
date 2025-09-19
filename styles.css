@@ -57,3 +57,15 @@ font-size:20px;
 margin-left:15px;
 }
 
+.media-icons {
+  display: flex;
+  justify-content: center;  /* optional */
+  gap: 10px;                /* optional, spacing between icons */
+}
+
+.copy{
+margin-left:25px;
+}
+.copy2{
+margin-right:50px;
+}
