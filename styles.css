@@ -1,1 +1,37 @@
 /* your code here */
+.*{
+margin:0;
+	padding:0;
+}
+.top{
+
+	display:flex;
+	background-color:black;
+	justify-content:space-between
+
+}
+.head{
+display:flex;
+justify-content:space-around;
+
+
+}
+	
+.logo-details{
+	color:white;
+	
+}
+.link-boxes{
+margin-top:80px;
+	background-color:black;
+	display:flex;
+	flex:wrap;
+	justify-content:space-around;
+	color:white;
+}
+.bottom-details{
+	background-color:orange;
+}
+.media-icons{
+	margin-left:
+}
